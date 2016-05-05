@@ -1,0 +1,28 @@
+{
+  "name": "elixir-jasmine",
+  "version": "0.0.1",
+  "description": "Laravel's elixir jasmine warpper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melanholly/elixir-jasmine.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "gulp-jasmine",
+    "jasmine"
+  ],
+  "author": "Kiril Grancharov <melanholly@gmail.com> (https://github.com/melanholly)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melanholly/elixir-jasmine/issues"
+  },
+  "dependencies": {
+    "gulp-jasmine": "~2.3.0",
+    "gulp": "~3.9.1"
+  }
+}
