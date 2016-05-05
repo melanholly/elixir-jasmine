@@ -9,7 +9,8 @@ var Jasmine = require('gulp-jasmine');
  |
  | This task will trigger your entire Jasmine test suite.
  | It's works great with the bdd task.
- |
+ | If you have any issues please report on
+ | https://github.com/melanholly/elixir-jasmine/issues
  */
 
  var Task = Elixir.Task;
