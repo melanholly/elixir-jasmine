@@ -84,6 +84,9 @@ Type: `object`
 
 Passes the config to Jasmine's [loadConfig](http://jasmine.github.io/2.3/node.html#section-Load_configuration_from_a_file_or_from_an_object.) method.
 
+## Change log
+### 0.0.4
+* added support for gulp watch
 ## License
 
 MIT © [Kiril Grancharov](https://github.com/melanholly)
