@@ -50,16 +50,16 @@ Type: `object`, `array` of `objects`
 Reporters to use.
 
 ```js
-const gulp = require('gulp');
-const jasmine = require('gulp-jasmine');
-const reporters = require('jasmine-reporters');
+require('elixir-jasmine');
 
-gulp.task('default', () =>
-	gulp.src('spec/test.js')
-		.pipe(jasmine({
-			reporter: new reporters.JUnitXmlReporter()
-		}))
-);
+elixir(function(mix) {
+    var options = {
+    			reporter: new reporters.JUnitXmlReporter()
+    		};
+
+    mix.jasmine(options);
+
+});
 ```
 
 [Creating your own reporter.](http://jasmine.github.io/2.1/custom_reporter.html)
