@@ -34,6 +34,6 @@ Elixir.extend ('jasmine', function (options, path) {
  */
 const prepGulpPaths = function () {
     return new Elixir.GulpPaths ()
-        .src (config.get ('assets.js.folder'))
-        .output (config.get ('public.js.outputFolder'), 'bundle.js');
+        .src (Elixir.config.get ('assets.js.folder'))
+        .output (Elixir.config.get ('public.js.outputFolder'), 'bundle.js');
 };
